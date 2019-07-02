@@ -11,8 +11,8 @@ To find out the name and details of a Linux operating system, you can use any of
 Let us try a few of the common Commands
 
 In the terminal on your right, type
-`uname`{{execute}} and press enter
-You should see that the Operating System is Linux
+`uname`{{execute}} or `uname -s`{{execute}} and press enter
+You should see that the Operating System is Linux.    
 
 Now try typing `uname -a`{{execute}} and press enter.  
 You will see something like  
