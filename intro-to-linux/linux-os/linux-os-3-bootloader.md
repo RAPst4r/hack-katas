@@ -1,4 +1,4 @@
-The Bootloader is what makes the computer start (or boot) up. You may be used to seeing a splash screen show with a message like “Your computer is starting up”. When this splash screen is shown, the bootloader part of the OS is running in the background, making your computer ready for your use. What the bootloader does is - it loads the Operating System into computer memory from a location called the Master Boot Record.  
+The Bootloader is what makes the computer start (or boot) up. You may be used to seeing a splash screen show with a message like “Your computer is starting up”. When this splash screen is shown, the bootloader part of the OS is running in the background, making your computer ready for your use. The bootloader is part of the __Master Boot Record__ __(MBR)__ portion of the OS. What the bootloader does is - it loads the Operating System into computer memory.  
 
 Common Linux bootloaders include:  
 - GRUB (GRand Unified Bootloader)  
