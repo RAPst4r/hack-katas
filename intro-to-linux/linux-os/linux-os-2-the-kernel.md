@@ -16,7 +16,7 @@ You should see that the Operating System is __Linux__.
 
 Now try typing `uname -a`{{execute}} and press enter.  
 You will see something like  
-    `Linux host01 4.4.0-151-generic #178-Ubuntu SMP Tue Jun 11 08:30:22 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux`  
+`Linux host01 4.4.0-151-generic #178-Ubuntu SMP Tue Jun 11 08:30:22 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux`  
 
 This means that the name of the kernel is Linux  
 The hostname is host01  
