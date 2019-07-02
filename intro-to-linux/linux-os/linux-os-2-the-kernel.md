@@ -14,38 +14,36 @@ In the terminal on your right, type
 `uname`{{execute}} and press enter
 You should see that the Operating System is Linux
 
-Now try typing `uname -a`{{execute}} and press enter.
-You will see something like
-Linux host01 4.4.0-151-generic #178-Ubuntu SMP Tue Jun 11 08:30:22 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+Now try typing `uname -a`{{execute}} and press enter.  
+You will see something like  
+Linux host01 4.4.0-151-generic #178-Ubuntu SMP Tue Jun 11 08:30:22 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux  
 
-This means that the name of the kernel is Linux
-The hostname is host01
-The numbers and text 4.4.0-XXX-generic mean
-4 - Kernel version
-4 - Major version
-0 - Minor version
-XXX - Bug fix
-generic - This is specific to a Linux distribution (or distro). In the case of Ubuntu, generic means desktop for the desktop version and server for the server version.
-The next text #178-Ubuntu means that this version of Linux kernel was compiled 178.
-The text SMP Tue Jun 11 08:30:22 UTC 2019 is the latest timestamp when the kernel was compiled.
-The next three numbers, all of which in this case is x86_64 represent
-the Machine architecture
-the Processor architecture and
-the Operating system architecture
-Finally the GNU/Linux means that the Operating System is Linux OS.
+This means that the name of the kernel is Linux  
+The hostname is host01  
+The numbers and text 4.4.0-XXX-generic mean  
+4 - Kernel version  
+4 - Major version  
+0 - Minor version  
+XXX - Bug fix  
+generic - This is specific to a Linux distribution (or distro). In the case of Ubuntu, generic means desktop for the desktop version and server for the server version.  
+The next text #178-Ubuntu means that this version of Linux kernel was compiled 178.  
+The text SMP Tue Jun 11 08:30:22 UTC 2019 is the latest timestamp when the kernel was compiled.  
+The next three numbers, all of which in this case is x86_64 represent  
+the Machine architecture,  
+the Processor architecture, and  
+the Operating system architecture  
+Finally the GNU/Linux means that the Operating System is Linux OS.  
 
-You can also type `lsb_release -a`{{execute}} and press enter.
+You can also type `lsb_release -a`{{execute}} and press enter.  
 
-You should see something like
-Distributor ID: Ubuntu
-Description:    Ubuntu 16.04.6 LTS
-Release:        16.04
-Codename:       xenial
-LSB stands for Linux Standard Base and  executing this command will give you more OS specific information such as the Distributor, Description the Release number and the codename that is used to refer to this version of the Linux OS.
+You should see something like  
+Distributor ID: Ubuntu  
+Description:    Ubuntu 16.04.6 LTS  
+Release:        16.04  
+Codename:       xenial  
+LSB stands for Linux Standard Base and  executing this command will give you more OS specific information such as the Distributor, Description the Release number and the codename that is used to refer to this version of the Linux OS.  
 
-You can also use the following cat commands to find out information about the Linux kernel.
-The cat command stands for Concatenate (read) files and print to standard output (display on the screen)
-
-`cat /etc/os-release`{{execute}}
-
-`cat /proc/version`{{execute}}
+You can also use the following cat commands to find out information about the Linux kernel.  
+The cat command stands for Concatenate (read) files and print to standard output (display on the screen)  
+`cat /etc/os-release`{{execute}}  
+`cat /proc/version`{{execute}}  
