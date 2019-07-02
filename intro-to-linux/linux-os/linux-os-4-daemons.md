@@ -6,7 +6,7 @@ One of the most important processes in Linux is the `init` process, which can be
 
 Technically, a daemon is a parent process that is started when the Operating System boots is initialized and boots up. So daemons are configured to run from `/etc/initd` where `initd` stands for initial daemons. This means that they usually have a PPID (Parent Process IDentifier) of 1. So we can look for all processes and search for the pattern where the PPID is equal to 1 to find daemons.  
 
-Type `ps -ef | awk ‘$3 == 1’`{{execute}} and enter.
+Type `ps -ef | awk '$3 == 1'`{{execute}} and enter.
 `root       285     1  0 20:39 ?        00:00:00 /lib/systemd/systemd-udevd
 root       749     1  0 20:39 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
 root       766     1  0 20:39 ?        00:00:00 /usr/sbin/cron -f
