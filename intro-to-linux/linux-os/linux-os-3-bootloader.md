@@ -30,8 +30,8 @@ You should see something like
 `[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-151-generic root=UUID=50300c45-9dcd-483c-acea-2f376f7acd95 ro quiet
 [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.4.0-151-generic root=UUID=50300c45-9dcd-483c-acea-2f376f7acd95 ro quiet`  
 
-Notice in the Kernel command line, you see the words `BOOT_IMAGE=/boot/vmlinuz-4.4.0-151-generic`
-The Linux Loader (LILO) always passes the word `BOOT_IMAGE=[KernelName]` to the kernel, where `[KernelName]` is the name by kernel.   
+Notice in the Kernel command line, you see the words `BOOT_IMAGE=/boot/vmlinuz-4.4.0-151-generic`  
+The Linux Loader (LILO) always passes the word `BOOT_IMAGE=[KernelName]` to the kernel, where `[KernelName]` is the name by kernel.  
 From this you can determine the the bootloader used here is LILO.  
 
 From a hacker perspective, it is important to recognize that Bootloader computer viruses corrupt the bootloader part of the OS making it impossible for the computer to start, causing a denial of service or DoS attack.   
