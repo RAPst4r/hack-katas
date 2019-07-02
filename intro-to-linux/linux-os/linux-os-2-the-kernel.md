@@ -36,10 +36,10 @@ Finally the `GNU/Linux` means that the Operating System is Linux OS.
 
 You can also type `lsb_release -a`{{execute}} and press enter.  
 You should see something like  
-  `Distributor ID: Ubuntu  
-  Description:    Ubuntu 16.04.6 LTS  
-  Release:        16.04  
-  Codename:       xenial`  
+`Distributor ID: Ubuntu  
+Description:    Ubuntu 16.04.6 LTS  
+Release:        16.04  
+Codename:       xenial`  
 LSB stands for Linux Standard Base and  executing this command will give you more OS specific information such as the Distributor, Description the Release number and the codename that is used to refer to this version of the Linux OS.  
 
 You can also use the following cat commands to find out information about the Linux kernel.  
