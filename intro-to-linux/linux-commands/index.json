@@ -1,0 +1,80 @@
+{
+  "title": "Linux Commands",
+  "description": "Basic and Advanced Linux Commands (for Hackers).",
+  "details": {
+    "steps": [
+      {
+        "title": "File & Directory Commands",
+        "text": "linux-cmds-1-file-and-dir-cmds.md"
+      },
+      {
+        "title": "Compression Commands",
+        "text": "linux-cmds-3-compression-cmds.md"
+      },
+      {
+        "title": "Transfer Commands",
+        "text": "linux-cmds-4-transfer-cmds.md"
+      },
+      {
+        "title": "Find Commands",
+        "text": "linux-cmds-5-find-cmds.md"
+      },
+      {
+        "title": "Group Commands",
+        "text": "linux-cmds-6-group-cmds.md"
+      },
+      {
+        "title": "User Commands",
+        "text": "linux-cmds-7-user-cmds.md"
+      },
+      {
+        "title": "Utilities Commands",
+        "text": "linux-cmds-8-utilities-cmds.md"
+      },
+      {
+        "title": "Display or Print Commands",
+        "text": "linux-cmds-9-display-cmds.md"
+      },
+      {
+        "title": "Software Commands",
+        "text": "linux-cmds-10-software-cmds.md"
+      },
+      {
+        "title": "Shell or Terminal Commands",
+        "text": "linux-cmds-11-shell-cmds.md"
+      },
+      {
+        "title": "Process Commands",
+        "text": "linux-cmds-12-process-cmds.md"
+      },
+      {
+        "title": "Network Commands",
+        "text": "linux-cmds-13-network-cmds.md"
+      },
+      {
+        "title": "environment Commands",
+        "text": "linux-cmds-14-env-cmds.md"
+      },
+      {
+        "title": "Security Commands",
+        "text": "linux-cmds-15-security-cmds.md"
+      },
+      {
+        "title": "Help Commands",
+        "text": "linux-cmds-16-help-cmds.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}

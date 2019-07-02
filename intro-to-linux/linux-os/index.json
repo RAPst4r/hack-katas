@@ -1,0 +1,52 @@
+{
+  "title": "Linux OS",
+  "description": "Linux Operating System.",
+  "details": {
+    "steps": [
+      {
+        "title": "What is Linux?",
+        "text": "linux-os-1-what-is-linux.md"
+      },
+      {
+        "title": "The Kernel",
+        "text": "linux-os-2-why-linux.md"
+      },
+      {
+        "title": "Bootloader",
+        "text": "linux-os-2-why-linux.md"
+      },
+      {
+        "title": "Daemons",
+        "text": "linux-os-2-why-linux.md"
+      },
+      {
+        "title": "Graphical Server",
+        "text": "linux-os-2-why-linux.md"
+      },
+      {
+        "title": "Desktop Environment (DE) and Applications",
+        "text": "linux-os-2-why-linux.md"
+      },
+      {
+        "title": "Command Line (or) Shell",
+        "text": "linux-os-2-why-linux.md"
+      },
+      {
+        "title": "Why Linux?",
+        "text": "linux-os-2-why-linux.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}

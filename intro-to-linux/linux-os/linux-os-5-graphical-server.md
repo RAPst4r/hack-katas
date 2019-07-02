@@ -1,0 +1,1 @@
+When Linux OS was introduced, it was mostly a command line driven OS, which is why it was not as widely adopted as other Graphical OS such as Windows or Mac OSX. However, nowadays, most Linux OSes come with a graphical server that is known as an X server or simply X. The X server makes it possible to display graphics on your monitor.

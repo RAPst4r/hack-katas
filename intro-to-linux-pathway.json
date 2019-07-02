@@ -1,0 +1,25 @@
+{
+    "title": "Introduction to Linux",
+    "description": "Introduces you to the Linux OS and commonly used Linux Commands.",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "pathway_id": "intro-to-linux",
+        "course_id": "linux-os",
+        "title": "Linux OS",
+        "description": "Linux Operating Systems (OS)"
+      },
+      {
+        "pathway_id": "intro-to-linux",
+        "course_id": "linux-commands",
+        "title": "Basic and Advanced Linux Commands",
+        "description": "Basic and Advanced Linux Commands"
+      },
+      {
+        "pathway_id": "intro-to-linux",
+        "course_id": "linux-commands-hackercise",
+        "title": "Hackercise - Treasure Hunt using Command Line",
+        "description": "Hands On exercise to practice Linux Commands"
+      }
+    ]
+  }

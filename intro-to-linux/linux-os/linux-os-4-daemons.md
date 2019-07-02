@@ -1,0 +1,1 @@
+Pronounced “Day-mens”, this part of the OS is another name for processes that run in the background. For example, when you login or when you send a print command, the login or printing service is run as a daemon.
