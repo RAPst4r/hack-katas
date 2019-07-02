@@ -35,6 +35,7 @@ the Operating system architecture
 Finally the GNU/Linux means that the Operating System is Linux OS.
 
 You can also type `lsb_release -a`{{execute}} and press enter.
+
 You should see something like
 Distributor ID: Ubuntu
 Description:    Ubuntu 16.04.6 LTS
@@ -44,5 +45,7 @@ LSB stands for Linux Standard Base and  executing this command will give you mor
 
 You can also use the following cat commands to find out information about the Linux kernel.
 The cat command stands for Concatenate (read) files and print to standard output (display on the screen)
+
 `cat /etc/os-release`{{execute}}
+
 `cat /proc/version`{{execute}}
