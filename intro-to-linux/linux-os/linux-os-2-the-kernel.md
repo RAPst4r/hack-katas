@@ -16,7 +16,7 @@ You should see that the Operating System is Linux
 
 Now try typing `uname -a`{{execute}} and press enter.  
 You will see something like  
-Linux host01 4.4.0-151-generic #178-Ubuntu SMP Tue Jun 11 08:30:22 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux  
+  Linux host01 4.4.0-151-generic #178-Ubuntu SMP Tue Jun 11 08:30:22 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux  
 
 This means that the name of the kernel is Linux  
 The hostname is host01  
@@ -35,15 +35,21 @@ the Operating system architecture
 Finally the GNU/Linux means that the Operating System is Linux OS.  
 
 You can also type `lsb_release -a`{{execute}} and press enter.  
-
 You should see something like  
-Distributor ID: Ubuntu  
-Description:    Ubuntu 16.04.6 LTS  
-Release:        16.04  
-Codename:       xenial  
+  Distributor ID: Ubuntu  
+  Description:    Ubuntu 16.04.6 LTS  
+  Release:        16.04  
+  Codename:       xenial  
 LSB stands for Linux Standard Base and  executing this command will give you more OS specific information such as the Distributor, Description the Release number and the codename that is used to refer to this version of the Linux OS.  
 
 You can also use the following cat commands to find out information about the Linux kernel.  
 The cat command stands for Concatenate (read) files and print to standard output (display on the screen)  
 `cat /etc/os-release`{{execute}}  
 `cat /proc/version`{{execute}}  
+
+The last way that we will learn to find to find out kernel information is by using 2 familiar Linux commands - dmesg and grep.  
+__dmesg__ is a command used to examine and display messages from the kernel and the  
+__grep__ command searches and prints the lines matching a pattern.  
+By combining these two commands we can we can print the kernel messages using dmesg and grep to find the pattern "Linux" in the messages.  
+Try typing `dmesg | grep 'Linux'`{{execute}} and press enter.  
+You should see some information about the Linux kernel.  
