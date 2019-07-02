@@ -9,31 +9,31 @@
       },
       {
         "title": "The Kernel",
-        "text": "linux-os-2-why-linux.md"
+        "text": "linux-os-2-the-kernel.md"
       },
       {
         "title": "Bootloader",
-        "text": "linux-os-2-why-linux.md"
+        "text": "linux-os-3-bootloader.md"
       },
       {
         "title": "Daemons",
-        "text": "linux-os-2-why-linux.md"
+        "text": "linux-os-4-daemons.md"
       },
       {
         "title": "Graphical Server",
-        "text": "linux-os-2-why-linux.md"
+        "text": "linux-os-5-graphical-server.md"
       },
       {
         "title": "Desktop Environment (DE) and Applications",
-        "text": "linux-os-2-why-linux.md"
+        "text": "linux-os-6-de-and-apps.md"
       },
       {
         "title": "Command Line (or) Shell",
-        "text": "linux-os-2-why-linux.md"
+        "text": "linux-os-7-shell.md"
       },
       {
         "title": "Why Linux?",
-        "text": "linux-os-2-why-linux.md"
+        "text": "linux-os-8-why-linux.md"
       }
     ],
     "intro": {
