@@ -1,9 +1,10 @@
-In this course, you will learn about some basic and advance Linux commands.
+Most movies or TV shows that show someone hacking, usually show you a screen (aka Terminal) with green font with the hacker actor, typing in commands into the terminal. This is the Linux Command line. The Linux command line or Shell is an OS process that allows you to control the computer by using commands that you type in as text interface. With modern Desktop Environments, the need for using the Shell is not as needed.  
 
-You may be wondering, Why do I need to learn about Linux and Linux commands?
-Most hackers use Linux as their operating system of choice, because Linux is an open source operating system and can be obtained for free. Also, unethical and bad hackers use many tools that they develop or is available in Linux to hack into other weak and vulnerable networks and software applications.
+However most hacking tools are command line driven and if you want to learn hacking, it is very important that you become very familiar with how to use the linux command line and the basic and advance Linux commands.
+Here, you will learn about some basic and advance Linux commands.  
 
-The commands you will learn are categorized into different kinds of commands.
+__Categories / Types of Linux Commands__
+There are various types of commands. The commands you will learn are categorized into different kinds of commands.  
 - Directory Commands
 - File Commands
 - Multiple File Commands
@@ -21,3 +22,6 @@ The commands you will learn are categorized into different kinds of commands.
 - Environment Commands
 - Security / File Permission Commands
 - Help Commands
+
+__Linux Commands are Case Sensitive__  
+It is also important to know that Linux commands are CaSe SeNsItIvE - meaning that if you type the commands in the wrong case (uppercase or lowercase or mixedcase), the command will not work and you will most likely get a “command not found” message on the terminal
